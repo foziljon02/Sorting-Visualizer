@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sorting-visualizer {
+  padding: 0 10px;
+}
+
+.bars {
+  display: flex;
+  gap: 2px;
+
+  .bar {
+    background: #7de2d1;
+    border-radius: 4px;
+    height: 8px;
+  }
+}
+
+.btn {
+  background-color: #131515;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+
+  &:hover {
+    background-color: #fff;
+    color: #131515;
+    border-color: #131515;
+  }
+}
